@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('description', models.TextField(max_length=500)),
                 ('people', models.IntegerField()),
                 ('price', models.DecimalField(decimal_places=2, max_digits=5)),
-                ('preparation_time', models.Field()),
+                ('preparation_time', models.IntergerField()),
                 ('image', models.ImageField(upload_to='meats/')),
             ],
         ),
